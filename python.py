@@ -34,7 +34,7 @@ class ChaineDeBlocs:
         for i in range(len(self.chaine)):
             print(f"Données {i + 1} : {self.chaine[i].donnees_bloc}")
             print(f"Hash {i + 1} : {self.chaine[i].hachage_bloc}\n")
-
+    # La méthode "@property" est un accesseur en lecture pour l'attribut dernier_bloc de la classe ChaineDeBlocs
     @property
     def dernier_bloc(self):
         # On retourne le dernier bloc de la chaîne.
