@@ -25,7 +25,8 @@ La methode "__init__" a trois parèmetres {self (l’instance de chaque objet), 
 -On a défini le constructeur de la classe "ChaineDeBlocs" pour initialiser la chaîne et générer le bloc de genèse(qui est le premier bloc). Le bloc de genèse n'a pas de prédécesseur, donc 
 
 -on utilise "0" comme hachage du bloc précédent.
-
+- La méthode "@property" est un accesseur en lecture pour l'attribut dernier_bloc de la classe "ChaineDeBlocs". Elle permet d'accéder au dernier bloc de la chaîne de blocs sans avoir à utiliser de parenthèses lors de l'appel.
+- 
 -On a également défini une méthode pour créer un nouveau bloc avec les transactions données et l'ajouter à la chaîne.
 
 -Pour afficher les données et les hachages de chaque bloc de la chaîne, on a défini une méthode qui parcourt la chaîne de blocs et imprime les informations de chaque bloc.
